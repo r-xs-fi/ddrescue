@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "ddrescue",
+	"meta": {
+		"description": "Container image for ddrescue - a data recovery tool. It copies data from one file or block device (hard disc, cdrom, etc) to another, trying to rescue the good parts first in case of read errors.",
+		"website": "https://www.gnu.org/software/ddrescue/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/ddrescue", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}

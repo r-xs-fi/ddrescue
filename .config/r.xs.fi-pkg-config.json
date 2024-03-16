@@ -1,0 +1,10 @@
+{
+	"usage_examples": [
+		{
+			"title": "Start rescue",
+			"cmd": "--verbose /dev/rescue rescued.img rescued.log",
+			"docker_opts": ["--device=/dev/sdb:/dev/rescue", "--volume=$(pwd):/workspace"],
+			"example_output": "GNU ddrescue 1.26\nAbout to copy 320072 MBytes from '/dev/rescue' to 'rescued.img'\n    Starting positions: infile = 0 B,  outfile = 0 B\n    Copy block size: 128 sectors       Initial skip size: 6272 sectors\nSector size: 512 Bytes\n\nPress Ctrl-C to interrupt\n     ipos:   60402 MB, non-trimmed:    1986 kB,  current rate:  22282 kB/s\n     opos:   60402 MB, non-scraped:        0 B,  average rate:  19627 kB/s\nnon-tried:  259853 MB,  bad-sector:        0 B,    error rate:       0 B/s\n  rescued:   60217 MB,   bad areas:        0,        run time:     51m  8s\npct rescued:   18.81%, read errors:       57,  remaining time:      3h 14m\n                              time since last successful read:          0s\nCopying non-tried blocks... Pass 1 (forwards)"
+		}
+	]
+}
