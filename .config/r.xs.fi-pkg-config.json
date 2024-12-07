@@ -1,4 +1,5 @@
 {
+	"supply_chain_descriptor": "alpine-package:ddrescue",
 	"usage_examples": [
 		{
 			"title": "Start rescue",
